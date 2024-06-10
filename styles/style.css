@@ -113,8 +113,8 @@ nav ul li a:hover {
 }
 
 .profile-picture {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: contain;
     background-color: #BABABA;
     border-radius: 50%;
@@ -195,8 +195,6 @@ nav ul li a:hover {
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .section-title {
@@ -358,7 +356,7 @@ nav ul li a:hover {
 }
 
 .project-card {
-    background: white;
+    background: #333;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 30%;
@@ -368,8 +366,8 @@ nav ul li a:hover {
 }
 
 .project-card img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 20px;
 }
 
@@ -391,26 +389,8 @@ nav ul li a:hover {
     margin: 0 10px;
 }
 
-.github-btn {
-    background: white;
-    color: #333;
-    border: 1px solid #333;
-}
-
-.github-btn:hover {
-    background: #333;
-    color: white;
-}
-
-.demo-btn {
-    background: #333;
-    color: white;
-    border: 1px solid #333;
-}
-
-.demo-btn:hover {
-    background: white;
-    color: #333;
+.project-card a {
+    background-color: #444;
 }
 
 /* Responsive styling */
